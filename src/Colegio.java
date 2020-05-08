@@ -43,7 +43,9 @@ public class Colegio
         alumno2.agregarMateria(materia2);
         alumno2.agregarMateria(materia3);
         alumno2.agregarMateria(materia3);
-        
+        alumno2.agregarMateria(new Materia(2,"Matematicas",1));
+        alumno2.agregarMateria(new Materia(2,"Matematicas",1));
+       
         System.out.println("");
         System.out.println("////////////////////////////////////////////////////////////////////////////Ejercicio E");
         System.out.println("");
@@ -61,7 +63,7 @@ public class Colegio
         System.out.println("////////////////////////////////////////////////////////////////////////////Ejercicio E.B");
         System.out.println("");
         
-        System.out.println("Implementé la colección tipo Set para evitar elementos repetidos");
-        System.out.println("Tuve que agregar una colección como un atributo de la clase Alumno");
+        System.out.println("Implementé la colección tipo List. Para evitar elementos repetidos me baso en la sobreescritura del metodo equals() de la clase Alumno");
+        System.out.println("Tuve que agregar una colección como un atributo de la clase Alumno y sobreescribir el metodo equals() de la clase Alumno.");
     }
 }
